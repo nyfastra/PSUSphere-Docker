@@ -1,32 +1,46 @@
-# PSUSphere
+# PSUSphere - Dockerized Django Application
 
 ## Project Description
-PSUSphere is a Django website for managing university colleges, programs, students, and campus organizations.
 
-## Features
-- View colleges and course programs.
-- Manage student information.
-- Manage campus organizations and members.
-- Use the Django admin dashboard.
+PSUSphere is a Django-based web application for managing university colleges, academic programs, students, and campus organizations.
 
-## Technologies
-- Python and Django
-- Docker and Docker Compose
+This project focuses on containerizing PSUSphere using **Docker and Docker Compose**, making the application easier to build, run, and deploy across different machines.
+
+## Technologies Used
+
+- Python
+- Django
 - SQLite
+- Docker
+- Docker Compose
 
 ## How to Run
 
 ### Development Setup
 
-1. Clone this repository.
-2. Open the project folder.
-3. Run:
+**Requirements:** Docker Desktop must be installed and running.
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/nyfastra/PSUSphere-Docker.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd PSUSphere-Docker
+   ```
+
+3. Build and start the application:
 
    ```bash
    docker compose up --build
    ```
 
-4. Open http://localhost:8000 in your browser.
+4. Open the application in your browser:
+
+   http://localhost:8000
 
 ### Client Setup
 
@@ -44,7 +58,10 @@ Docker will download the image from Docker Hub if needed.
 
 ## Docker Hub
 
+Docker image:
 https://hub.docker.com/r/nyfcabral/psusphere
 
-## Author
-Nicole Ynarhosenne Faith F. Cabral
+## Authors
+
+- Nicole Ynarhosenne Faith F. Cabral
+- Dayang Natassia Erliya M. Datu Amir Bahar
